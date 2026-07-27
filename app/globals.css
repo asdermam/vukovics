@@ -47,7 +47,7 @@ h1 em,h2 em { color:var(--warm); font-weight:400; }
 .trust-strip p { margin:0; font-size:10px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; white-space:nowrap; }
 .trust-strip i { width:4px; height:4px; background:var(--warm); transform:rotate(45deg); }
 .section { padding:120px 5vw; }
-.section-intro { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:58px; }
+.section-intro { display:block; margin-bottom:58px; }
 .section-intro h2,.about-copy h2,.contact-copy h2 { font-size:clamp(42px,4.3vw,66px); }
 .service-list { display:grid; grid-template-columns:repeat(3,1fr); border-top:1px solid var(--line); }
 .service-card { min-height:330px; padding:34px 34px 30px 0; border-right:1px solid var(--line); display:flex; flex-direction:column; }
